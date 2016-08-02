@@ -17,4 +17,5 @@ do_install() {
 }
 
 PACKAGE_ARCH = "${MACHINE_ARCH}"
+ALLOW_EMPTY_${PN} = "1"
 CONFFILES_${PN} = "${sysconfdir}/pointercal.xinput"
